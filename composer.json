@@ -2,5 +2,23 @@
     "require": {
         "psr/log": "^3.0",
         "psr/cache": "^1.0"
+    },
+    "extra": {
+        "violinist": {
+            "rules": [
+                {
+                    "name": "PSR group",
+                    "slug": "pee-ess-arr",
+                    "matchRules": [
+                        {
+                            "type": "names",
+                            "values": [
+                                "psr/*"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
     }
 }
